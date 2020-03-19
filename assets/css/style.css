@@ -88,14 +88,6 @@ label{
   opacity: 0.8;
 } 
 
-/* Blinking menu tab */
-.blinking {
-	animation: blinker 0.5s linear infinite;
-}
-@keyframes blinker {  
-  50% { opacity: 0; }
-}
-
 /* Table */
 table {
 	color: white;
@@ -154,14 +146,6 @@ table {
 }
 .tap-target-wrapper.open .tap-target {
   transform: scale(1.75);
-}
-
-/* Changes wrapper for feature discovery on small screens */
-@media only screen and (max-width: 600px) {
-  .tap-target, .tap-target-wrapper {
-    height: 100%;
-    border-radius: 15%;
-  }
 }
 
 #backgroundText{
@@ -347,6 +331,14 @@ a{
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
+}
+
+/* Blinking menu tab animation */
+.blinking {
+	animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
 
 /* Animation for the slideshow images */
@@ -552,6 +544,14 @@ a{
 	}
 	100% { opacity: 0 }
 }
+
+/* Changes wrapper for feature discovery on small screens */
+@media only screen and (max-width: 600px) {
+	.tap-target, .tap-target-wrapper {
+	  height: 100%;
+	  border-radius: 15%;
+	}
+  }
 
 /* Adds scrollable tbody on screens larger then 992 */
 @media only screen and (min-width: 992px) {
