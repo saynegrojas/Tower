@@ -20,6 +20,7 @@ var activeInfoWindow;
 
 // Initialize firebase
 function initFirebase() {
+  // API config
   var config = {
     apiKey: "AIzaSyDqBdI91HIVFwk6UhLGvfuGP8Lg42FQp80",
     authDomain: "tower-finder-30aa8.firebaseapp.com",
