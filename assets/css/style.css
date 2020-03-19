@@ -10,19 +10,21 @@
 #map {
   height: 50%;
 }
+
 /* Optional: Makes the sample page fill the window. */
 html {
   height: 90vh;
 }
+
 body {
   height: 90vh;
   margin: 0;
   padding: 0;
   color: black;
 }
+
 .row{
   margin-bottom: 5x;
-  
 }
 form {
 	padding-top: 5px;
@@ -45,9 +47,13 @@ label{
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+/* Button before hover */
 .btn-large:hover::before {
   opacity:1;
 }
+
+/* Button before w/o hover */
 .btn-large:before {
   content: '';
   opacity: 0;
@@ -74,12 +80,15 @@ label{
 	right: 0;
 	bottom: 0;
 }
+
 /* Spinner Text */
 .preloader-background p {
   padding-top: 120px;
   margin-left: -55px;
   opacity: 0.8;
 } 
+
+/* Blinking menu tab */
 .blinking {
 	animation: blinker 0.5s linear infinite;
 }
@@ -100,16 +109,19 @@ table {
 ::-webkit-scrollbar {
   width: 20px;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 3px grey; 
   border-radius: 10px;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 10px;
 }
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(68, 138, 255, .7); 
@@ -122,6 +134,7 @@ table {
   background-color: rgba(3, 40, 121, 0.75);
   border-radius: 4px;
 }
+
 .modal .modal-footer {
   color: white;
   background-color: rgba(3, 40, 121, 0.12);
@@ -134,6 +147,7 @@ table {
   right: 10px;
   z-index: 99;
 }
+
 .tap-target{
   background-color: rgba(3, 40, 121, 0.9);
   color: white;
@@ -150,27 +164,9 @@ table {
   }
 }
 
-/* Adds scrollable tbody on screens larger then 992 */
-@media only screen and (min-width: 992px) {
-	.table {
-		background-color: rgba(0, 26, 175, 0.5);
-	}
-  tbody {
-    display: block;
-    height: 170px;
-    overflow-x: auto;
-  }
-  thead, tbody tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-  }
-}
 #backgroundText{
   font-family: 'Anton', sans-serif;
 }
-
-
 
 /* General Demo Style */
 body{
@@ -221,6 +217,7 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
+/* Slideshow */
 .slideshow,
 .slideshow:after {
     position: fixed;
@@ -351,6 +348,7 @@ a{
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
 	0% {
@@ -452,6 +450,7 @@ a{
 	}
 	100% { opacity: 0 }
 }
+
 /* Animation for the title */
 @-webkit-keyframes titleAnimation { 
 	0% {
@@ -553,6 +552,24 @@ a{
 	}
 	100% { opacity: 0 }
 }
+
+/* Adds scrollable tbody on screens larger then 992 */
+@media only screen and (min-width: 992px) {
+	.table {
+		background-color: rgba(0, 26, 175, 0.5);
+	}
+  tbody {
+    display: block;
+    height: 170px;
+    overflow-x: auto;
+  }
+  thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}
+
 /* Show at least something when animations not supported */
 .no-cssanimations .slideshow li span{
 	opacity: 1;
