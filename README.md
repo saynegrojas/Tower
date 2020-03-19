@@ -18,10 +18,9 @@ To get started, Open Live Server from HTML file.
 * Google Maps
 
 ## Contributing
+* **👤 Greg Rojas**
 * **👤 Andy Mendez**
 * **👤 David Huang**
-* **👤 Katherine Orho**
-* **👤 Greg Rojas**
 ## Versioning
 ## Authors
 ## License
