@@ -309,7 +309,6 @@ $(function () {
         else {
           // Remove preloader
           $(".preloader-background").addClass("hide");
-
           noCityModal();
         }
 
@@ -353,7 +352,7 @@ $(function () {
         var key = Object.keys(response)[0];
 
         // Checks if coordinates are in valid city
-        if (key == "address") {
+        if (key === "address") {
           // Sets user's city equal to the city containing coodinates
           var userCity = response.address.City;
 
@@ -405,7 +404,10 @@ $(function () {
 
   // Open close instructions tap target from feature discovery when clicked
   $("#menu").on("click", function () {
+
+    // Menu button for instructions
     $('.tap-target').tapTarget('open');
+
     // Remove instruction button pulsing effect
     $('#menu').removeClass("pulse");
   });
