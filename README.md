@@ -2,20 +2,16 @@
 
 An App that allows wireless site acquisition teams to locate existing towers near a specified address.
 
-## Getting Started
+## 👨‍💻 **Getting Started**
 
 To get started, make sure to clone the repo.
 
-## Prerequisites
-
-- Clone repository
-
-## Installing
+## 🌐 **Installing**
 
 1. Clone repository
 2. Open Live Server from HTML file.
 
-## Deployment
+## 📓 **Development**
 
 Deployed on Github Pages
 Deployment Link: https://saynegrojas.github.io/Tower/
@@ -28,7 +24,7 @@ Deployment Link: https://saynegrojas.github.io/Tower/
 * Firebase
 * Google Maps
 
-## Contributing
+## 🤝 **Contributing**
 
 * **👤 Greg Rojas**
 * **👤 Andy Mendez**
@@ -38,7 +34,7 @@ Deployment Link: https://saynegrojas.github.io/Tower/
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
+## :star2:Acknowledgments
 
 * **👤 Tom Williams**
 * **👤 Andy Mendez**
