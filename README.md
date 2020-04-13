@@ -1,4 +1,4 @@
-## Tower-Finder
+## :satellite: Tower-Finder
 
 An App that allows wireless site acquisition teams to locate existing towers near a specified address.
 
