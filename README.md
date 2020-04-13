@@ -1,6 +1,12 @@
 ## :satellite: Tower-Finder
 
 An App that allows wireless site acquisition teams to locate existing towers near a specified address.
+<p align="center">
+  <img 
+       src="assets/images/tower-finder.gif"
+       width="300"
+       height="350">
+ </p>
 
 ## 👨‍💻 **Getting Started**
 
